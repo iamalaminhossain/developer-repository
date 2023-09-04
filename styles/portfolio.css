@@ -14,6 +14,7 @@
     font-size: 15px;
     font-weight: 80px;
 }
+
 .head{
     background-color:#FFF8F3 ;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -25,7 +26,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 10px 100px;
+    padding: 50px 100px;
 }
 nav li{
     list-style: none;
@@ -58,12 +59,13 @@ nav ul{
 }
 .btn-second{
     height: 60px;
-    width: 200px;
-    border-radius: 10px;
+    width: 160px;
+    border-radius: 5px;
     background: orange;
-    padding: 5px 10px;
-    font-size: 30px;
-    font-weight:50px
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight:400px;
+    
 
 }
 main{
@@ -106,3 +108,133 @@ line-height: 30px;
     line-height: 30px;
    
 }
+.what-i-do{
+    margin-bottom: 50px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.section-description{
+    color: var(--Dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-bottom: 20px;
+}
+.skill-container{
+    display: flex;
+    gap: 25px;
+}
+.skill{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+}
+.skill-title{color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.skill-descrption{color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+
+}
+.section-titles{color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+margin-bottom: 50px;
+display: flex;}
+.resume-content{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+.resume-title{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;
+
+}
+.title{color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+    
+    .sub-title{color: var(--Dark-03, #757575);
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 25px;
+    }
+        .description{color: var(--Dark-03, #757575);
+            font-family: Open Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+            margin-bottom: 20px;
+        }
+        .resume-list{
+            margin-bottom: 50px;
+        }
+        .contact{
+            display: flex;
+            gap: 100px;
+            background-color: #FFF8F3;
+            padding: 130px 200px;
+            
+        }
+        .contact-title{color: #181818);
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 50px;
+
+        }
+        .contact-description{color: #474747);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+            margin-bottom: 50px;
+        }
+        .contact input[type="text"], input[type="email"], textarea{
+            margin-bottom: 25px;
+            border: 0px;
+            padding: 18px 30px;
+            width: 100%;
+        }
+        .contact a{
+            text-decoration: none;
+        }
+        
+        
+
